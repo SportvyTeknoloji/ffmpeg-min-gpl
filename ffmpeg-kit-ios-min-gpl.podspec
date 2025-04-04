@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '12.1'
     s.source       = { 
       :git => 'https://github.com/SportvyTeknoloji/ffmpeg-min-gpl.git',
-      :tag => 'ffmpeg-min-3'
+      :tag => 'ffmpeg-min-5'
     }
     s.vendored_frameworks = 'ffmpegkit.xcframework', 'libavcodec.xcframework', 'libavdevice.xcframework', 'libavfilter.xcframework', 'libavformat.xcframework', 'libavutil.xcframework', 'libswresample.xcframework', 'libswscale.xcframework' # Derlenmiş framework'lerinizin yolu
     s.libraries    = 'z', 'bz2', 'iconv'
